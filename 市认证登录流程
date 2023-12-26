@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T06:56:36.720Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="22.1.11" etag="TT-DGsWtrc1VREcmR1WA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T07:19:02.782Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="eIAgylviXlrsRnj_TO96" version="22.1.11" type="github">
   <diagram name="Page-1" id="RvgzAtqp8OC9LqF_0Fmb">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-1" target="xth4TrDxFgJBnjc4QUFN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-4" value="市智能网关拦截" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xth4TrDxFgJBnjc4QUFN-3">
+          <mxGeometry x="-0.1158" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-1" value="访问用户中心登录地址" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-2" target="xth4TrDxFgJBnjc4QUFN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-2" value="市认证登录页" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-5" target="xth4TrDxFgJBnjc4QUFN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xth4TrDxFgJBnjc4QUFN-8">
+          <mxGeometry x="-0.0667" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-5" value="进行认证是否通过" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-7" target="xth4TrDxFgJBnjc4QUFN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-7" value="回调用户中心接口" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-13" value="返回市认证登录页" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-14" target="xth4TrDxFgJBnjc4QUFN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-14" value="根据userId获取token" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-16" target="xth4TrDxFgJBnjc4QUFN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-22" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xth4TrDxFgJBnjc4QUFN-21">
+          <mxGeometry x="-0.24" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-16" target="xth4TrDxFgJBnjc4QUFN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xth4TrDxFgJBnjc4QUFN-24">
+          <mxGeometry x="-0.1385" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-16" value="是否获取token" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="525" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xth4TrDxFgJBnjc4QUFN-20" target="xth4TrDxFgJBnjc4QUFN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-20" value="跳转用户中心登录地址" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="575" y="505" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-23" value="跳转用户中心首页" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="355" y="630" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xth4TrDxFgJBnjc4QUFN-27" value="市智能网关拦截" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="300" y="130" as="geometry">
+            <mxPoint x="354" y="268" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
