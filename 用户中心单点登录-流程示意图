@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T03:18:53.593Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="N9tEqhByYXJusYRuJwn7" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T09:22:43.751Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Kb-6VZ3UmVWQJ_GRfwSS" version="22.1.20" type="github">
   <diagram name="Page-1" id="IW4fxZF5yIuqzrDnJxwZ">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,14 +64,14 @@
         <mxCell id="wUwuY2i3kvw_B_GRFUnV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wUwuY2i3kvw_B_GRFUnV-7" target="wUwuY2i3kvw_B_GRFUnV-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wUwuY2i3kvw_B_GRFUnV-7" value="流程中心服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-7" value="受保护资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="400" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wUwuY2i3kvw_B_GRFUnV-9" value="申请|维护&lt;br&gt;第三方系统服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="710" y="198" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUwuY2i3kvw_B_GRFUnV-11" value="1.访问第三方界面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="98" width="120" height="30" as="geometry" />
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-11" value="1.切换第三方系统登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="98" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wUwuY2i3kvw_B_GRFUnV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.158;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wUwuY2i3kvw_B_GRFUnV-1" target="wUwuY2i3kvw_B_GRFUnV-6">
           <mxGeometry relative="1" as="geometry" />
@@ -106,8 +106,37 @@
         <mxCell id="wUwuY2i3kvw_B_GRFUnV-36" value="返回结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="378" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wUwuY2i3kvw_B_GRFUnV-39" value="市认证平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wUwuY2i3kvw_B_GRFUnV-39" target="wUwuY2i3kvw_B_GRFUnV-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="580" />
+              <mxPoint x="460" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wUwuY2i3kvw_B_GRFUnV-39" target="wUwuY2i3kvw_B_GRFUnV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-39" value="市认证平台登录界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wUwuY2i3kvw_B_GRFUnV-40" target="wUwuY2i3kvw_B_GRFUnV-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-40" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-43" value="1.切换市认证平台登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-44" value="2.验证用户,密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-45" value="市认证平台权限服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wUwuY2i3kvw_B_GRFUnV-48" value="3.认证成功重定向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="520" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
