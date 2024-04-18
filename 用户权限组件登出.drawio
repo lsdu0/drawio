@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T03:20:43.397Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="wUvihGVzlyXHCrPXmI-c" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T03:27:11.738Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mlg-xrH4EVSAYa2m12Ih" version="24.2.5" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,8 @@
         <mxCell id="aQzWEBQt-W9fVryUix-r-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="320" y="120" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-3" value="2.业务系统判断是否登录态,&lt;div&gt;没有则重定向&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-3" value="2.业务系统自身清除登录态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="332" y="126" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="362" y="126" />
@@ -19,13 +19,11 @@
               <mxPoint x="337" y="150" />
             </Array>
             <mxPoint x="337" y="156" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="320" y="220" width="10" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-5" value="1.访问受保护资源" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-1" target="aQzWEBQt-W9fVryUix-r-2">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-5" value="1.点击退出按钮" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-1" target="aQzWEBQt-W9fVryUix-r-2">
+          <mxGeometry x="0.0044" relative="1" as="geometry">
             <mxPoint x="195" y="130" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="180" y="120" />
@@ -36,7 +34,7 @@
         <mxCell id="aQzWEBQt-W9fVryUix-r-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="555" y="170" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-7" value="3.302重定向到用户权限组件authorize接口地址" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-2">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-7" value="3.302重定向到用户权限组件登出页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="160" as="targetPoint" />
             <Array as="points" />
@@ -54,11 +52,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;4.访问authorize接口&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="159" width="120" height="40" as="geometry" />
+        <mxCell id="aQzWEBQt-W9fVryUix-r-9" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;4.访问登出接口,携带redriectUrl重定向地址&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="159" width="120" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-10" value="5.用户通过账密,手机号本地登录成功" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-10" value="5.用户权限组件清除登录态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="566" y="193" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="596" y="193" />
@@ -66,101 +64,8 @@
               <mxPoint x="571" y="217" />
             </Array>
             <mxPoint x="571" y="223" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-11" value="6.登录成功,302重定向到业务系统&lt;div&gt;接收授权码code的接口地址&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-1" y="116" relative="1" as="geometry">
-            <mxPoint x="325" y="245" as="targetPoint" />
-            <Array as="points" />
-            <mxPoint x="325" y="244.83333333333337" as="sourcePoint" />
-            <mxPoint x="115" y="-15" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-12" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="aQzWEBQt-W9fVryUix-r-4">
-          <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="320" y="231" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="415" y="231" />
-            </Array>
-            <mxPoint x="550" y="230" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-13" value="7.访问获取token接口,携带&lt;div&gt;授权码code,client_id,client_secret&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="333" y="285" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="418" y="285" />
-            </Array>
-            <mxPoint x="558" y="285" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="556" y="255" width="10" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-15" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="332" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="417" y="320" />
-            </Array>
-            <mxPoint x="552" y="319" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-16" value="8.返回token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="375" y="296" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="556" y="350" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-18" value="9.使用token访问check_token接口" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="331" y="367" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="416" y="367" />
-            </Array>
-            <mxPoint x="556" y="367" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-19" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="331" y="405" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="416" y="405" />
-            </Array>
-            <mxPoint x="551" y="404" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-20" value="10.&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;返回用户信息&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="365" y="378" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-21" value="11.业务系统A完成登录态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="332" y="420" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="362" y="420" />
-              <mxPoint x="362" y="444" />
-              <mxPoint x="337" y="444" />
-            </Array>
-            <mxPoint x="337" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-22" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="97" y="454" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="182" y="454" />
-            </Array>
-            <mxPoint x="317" y="453" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-23" value="返回业务系统信息,允许访问业务系统A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="91" y="428" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aQzWEBQt-W9fVryUix-r-24" value="用户浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="100" height="450" as="geometry" />
@@ -169,12 +74,12 @@
           <mxGeometry x="45" y="70" width="10" height="350" as="geometry" />
         </mxCell>
         <mxCell id="aQzWEBQt-W9fVryUix-r-26" value="第三方业务系统A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="275" y="40" width="100" height="460" as="geometry" />
+          <mxGeometry x="275" y="40" width="100" height="430" as="geometry" />
         </mxCell>
         <mxCell id="aQzWEBQt-W9fVryUix-r-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aQzWEBQt-W9fVryUix-r-26">
           <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-28" value="2.业务系统判断是否登录态,&lt;div&gt;没有则重定向&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="aQzWEBQt-W9fVryUix-r-26">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-28" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="aQzWEBQt-W9fVryUix-r-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="57" y="86" as="sourcePoint" />
             <Array as="points">
@@ -185,10 +90,7 @@
             <mxPoint x="62" y="116" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aQzWEBQt-W9fVryUix-r-26">
-          <mxGeometry x="45" y="180" width="10" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-30" value="1.访问受保护资源" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-25" target="aQzWEBQt-W9fVryUix-r-27">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-30" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-25" target="aQzWEBQt-W9fVryUix-r-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="130" as="sourcePoint" />
             <Array as="points">
@@ -198,12 +100,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aQzWEBQt-W9fVryUix-r-31" value="用户权限组件服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="510" y="40" width="100" height="450" as="geometry" />
+          <mxGeometry x="510" y="40" width="100" height="430" as="geometry" />
         </mxCell>
         <mxCell id="aQzWEBQt-W9fVryUix-r-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aQzWEBQt-W9fVryUix-r-31">
           <mxGeometry x="45" y="130" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-33" value="3.302重定向到用户权限组件authorize接口地址" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-27">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-33" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aQzWEBQt-W9fVryUix-r-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="160" as="targetPoint" />
             <Array as="points" />
@@ -221,11 +123,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-35" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;4.访问authorize接口&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="159" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-36" value="5.用户通过账密,手机号本地登录成功" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-36" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="566" y="193" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="596" y="193" />
@@ -233,101 +132,26 @@
               <mxPoint x="571" y="217" />
             </Array>
             <mxPoint x="571" y="223" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-37" value="6.登录成功,302重定向到业务系统&lt;div&gt;接收授权码code的接口地址&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-1" y="116" relative="1" as="geometry">
-            <mxPoint x="325" y="245" as="targetPoint" />
+        <mxCell id="aQzWEBQt-W9fVryUix-r-37" value="6.302重定向回调地址redriectUrl" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="-21" relative="1" as="geometry">
+            <mxPoint x="326" y="245" as="targetPoint" />
             <Array as="points" />
-            <mxPoint x="325" y="244.83333333333337" as="sourcePoint" />
-            <mxPoint x="115" y="-15" as="offset" />
+            <mxPoint x="326" y="244.83333333333337" as="sourcePoint" />
+            <mxPoint x="-15" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-38" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="aQzWEBQt-W9fVryUix-r-29">
+        <mxCell id="aQzWEBQt-W9fVryUix-r-38" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="320" y="231" as="targetPoint" />
+            <mxPoint x="89.5" y="237" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="415" y="231" />
+              <mxPoint x="415" y="237" />
             </Array>
-            <mxPoint x="550" y="230" as="sourcePoint" />
+            <mxPoint x="550" y="236" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-39" value="7.访问获取token接口,携带&lt;div&gt;授权码code,client_id,client_secret&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="333" y="285" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="418" y="285" />
-            </Array>
-            <mxPoint x="558" y="285" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="556" y="255" width="10" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-41" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="332" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="417" y="320" />
-            </Array>
-            <mxPoint x="552" y="319" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-42" value="8.返回token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="375" y="296" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="556" y="350" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-44" value="9.使用token访问check_token接口" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="331" y="367" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="416" y="367" />
-            </Array>
-            <mxPoint x="556" y="367" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-45" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="331" y="405" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="416" y="405" />
-            </Array>
-            <mxPoint x="551" y="404" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-46" value="10.&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;返回用户信息&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="365" y="378" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-47" value="11.业务系统A完成登录态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="332" y="420" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="362" y="420" />
-              <mxPoint x="362" y="444" />
-              <mxPoint x="337" y="444" />
-            </Array>
-            <mxPoint x="337" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-48" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0015" relative="1" as="geometry">
-            <mxPoint x="97" y="454" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="182" y="454" />
-            </Array>
-            <mxPoint x="317" y="453" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQzWEBQt-W9fVryUix-r-49" value="返回业务系统信息,允许访问业务系统A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="91" y="428" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
