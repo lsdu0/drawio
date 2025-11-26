@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="sFGX4x53_Nxiq63KX_ER">
+    <mxGraphModel dx="1110" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" value="用户浏览器" vertex="1">
+          <mxGeometry height="450" width="100" x="330" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-2" parent="LeWN4lvTiiBqMroL3Tsw-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="350" width="10" x="45" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" value="用户中心" vertex="1">
+          <mxGeometry height="460" width="100" x="565" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-4" parent="LeWN4lvTiiBqMroL3Tsw-3" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="250" width="10" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-5" edge="1" parent="LeWN4lvTiiBqMroL3Tsw-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="2.判断是否传入深治慧token,&lt;div&gt;没有则重定向到登录页&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="86" />
+              <mxPoint x="87" y="110" />
+              <mxPoint x="62" y="110" />
+            </Array>
+            <mxPoint x="57" y="86" as="sourcePoint" />
+            <mxPoint x="62" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-7" edge="1" parent="1" source="LeWN4lvTiiBqMroL3Tsw-2" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" target="LeWN4lvTiiBqMroL3Tsw-4" value="1.深治慧页面跳转,携带&lt;span style=&quot;text-align: left;&quot;&gt;深治慧token,pagepath&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="470" y="290" />
+            </Array>
+            <mxPoint x="485" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" value="第三方业务系统" vertex="1">
+          <mxGeometry height="450" width="100" x="800" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" value="4.重定向到业务系统,&lt;div&gt;携带用户中心userId,&lt;span style=&quot;text-align: left;&quot;&gt;pagepath&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="708" y="470" />
+            </Array>
+            <mxPoint x="623" y="470" as="sourcePoint" />
+            <mxPoint x="848" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-17" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="175" width="10" x="846" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" target="LeWN4lvTiiBqMroL3Tsw-8" value="">
+          <mxGeometry relative="1" x="-0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="620" y="530" />
+            </Array>
+            <mxPoint x="620" y="530" as="sourcePoint" />
+            <mxPoint x="621" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-23" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="7.&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;返回用户信息&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="665" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-24" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="8.业务系统A完成登录态">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="547" />
+              <mxPoint x="885" y="571" />
+              <mxPoint x="860" y="571" />
+            </Array>
+            <mxPoint x="855" y="547" as="sourcePoint" />
+            <mxPoint x="860" y="577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="855" y="585" />
+            </Array>
+            <mxPoint x="844.5000000000002" y="585" as="sourcePoint" />
+            <mxPoint x="385" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-26" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;9.重定向业务系统pagepath地址&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="411" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="471" y="321" />
+            </Array>
+            <mxPoint x="606" y="320" as="sourcePoint" />
+            <mxPoint x="386" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;重定向到登录页&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="440" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-29" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="3.传入深治慧token,调用深治慧&lt;div&gt;getuserinfo接口获取用户信息&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="651" y="350" />
+              <mxPoint x="651" y="374" />
+              <mxPoint x="626" y="374" />
+            </Array>
+            <mxPoint x="621" y="350" as="sourcePoint" />
+            <mxPoint x="626" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-30" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="3.对比用户手机号,&lt;div&gt;判断登录用户获取userid&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="401" />
+              <mxPoint x="653" y="425" />
+              <mxPoint x="628" y="425" />
+            </Array>
+            <mxPoint x="623" y="401" as="sourcePoint" />
+            <mxPoint x="628" y="431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeWN4lvTiiBqMroL3Tsw-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;6.携带&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;用户中心userId获取用户信息&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="845" y="500" />
+            </Array>
+            <mxPoint x="760" y="500" as="sourcePoint" />
+            <mxPoint x="614.6666666666667" y="499.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
